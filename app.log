@@ -1,0 +1,51 @@
+2025-04-22 17:32:50,027 - programmTRON - INFO - Start work /wallet
+2025-04-22 17:32:50,027 - programmTRON - INFO - time 17:32:50 data 2025-04-22
+2025-04-22 17:32:50,030 - programmTRON - WARNING - Error Exception: (sqlite3.OperationalError) table wallet has no column named time
+[SQL: INSERT INTO wallet (namewallet, data, time, ip) VALUES (?, ?, ?, ?)]
+[parameters: ('TZ4UXDV5ZhNW7fb2AMSbgfAEZ7hWsnYS2g', '2025-04-22', '17:32:50.000000', '127.0.0.1')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-22 17:33:59,931 - programmTRON - INFO - Start work /wallet
+2025-04-22 17:33:59,932 - programmTRON - INFO - time 17:33:59 data 2025-04-22
+2025-04-22 17:34:05,035 - programmTRON - INFO - Start /show
+2025-04-22 17:35:53,595 - programmTRON - INFO - Start /show
+2025-04-22 17:36:22,799 - programmTRON - INFO - Start /show
+2025-04-22 17:54:38,665 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-22 17:54:38,667 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-22 17:54:38,667 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-22 17:54:43,080 - programmTRON - INFO - Start work /wallet
+2025-04-22 17:54:43,080 - programmTRON - INFO - time 17:54:43 data 2025-04-22
+2025-04-22 17:54:46,391 - programmTRON - INFO - Start /show
+2025-04-22 18:08:37,179 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-22 18:08:37,180 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-22 18:08:37,180 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-22 18:08:40,233 - programmTRON - INFO - Start work /wallet
+2025-04-22 18:08:40,233 - programmTRON - INFO - time 18:08:40 data 2025-04-22
+2025-04-22 18:08:40,233 - programmTRON - WARNING - Error Exception: object Wallet can't be used in 'await' expression
+2025-04-22 18:56:16,808 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-22 18:56:16,809 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-22 18:56:16,809 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-22 18:56:21,579 - programmTRON - INFO - Start work "/" HTML code
+2025-04-22 18:56:28,402 - programmTRON - INFO - Start work /wallet
+2025-04-22 18:56:28,402 - programmTRON - INFO - time 18:56:28 data 2025-04-22
+2025-04-22 18:56:28,405 - programmTRON - WARNING - Error Exception: 'coroutine' object does not support the asynchronous context manager protocol
+2025-04-22 18:57:05,617 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-22 18:57:05,618 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-22 18:57:05,618 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-22 18:57:09,612 - programmTRON - INFO - Start work /wallet
+2025-04-22 18:57:09,612 - programmTRON - INFO - time 18:57:09 data 2025-04-22
+2025-04-22 18:57:09,614 - programmTRON - WARNING - Error Exception: 'coroutine' object does not support the asynchronous context manager protocol
+2025-04-22 18:58:56,486 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-22 18:58:56,486 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-22 18:58:56,486 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-22 18:58:58,567 - programmTRON - INFO - Start work /wallet
+2025-04-22 18:58:58,567 - programmTRON - INFO - time 18:58:58 data 2025-04-22
+2025-04-22 18:58:58,568 - programmTRON - WARNING - Error Exception: 'coroutine' object does not support the asynchronous context manager protocol
+2025-04-22 19:00:23,295 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-22 19:00:23,296 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-22 19:00:23,296 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-22 19:00:23,949 - programmTRON - INFO - Start work /wallet
+2025-04-22 19:00:23,949 - programmTRON - INFO - time 19:00:23 data 2025-04-22
+2025-04-22 19:00:23,951 - programmTRON - WARNING - Error Exception: 'coroutine' object does not support the asynchronous context manager protocol
+2025-04-22 19:05:36,979 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-22 19:05:36,980 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-22 19:05:36,980 - apscheduler.scheduler - INFO - Scheduler started

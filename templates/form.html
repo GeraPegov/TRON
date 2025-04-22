@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Отправить секрет</title>
+</head>
+<body>
+    <h1>Впишите номер кошелька</h1>
+    <form action="/wallet" method="post">
+        <div>
+            <label for="user_wallet">Кошелек:</label>
+            <textarea id="address" name="user_wallet" required></textarea>
+        </div>
+        <button type="submit">Отправить</button>
+    </form>
+    <h1>Перейти на просмотр заявок</h1>
+    <form action="http://127.0.0.1:8000/show" method="get">
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>
