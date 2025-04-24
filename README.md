@@ -1,6 +1,6 @@
 # Сервис "AccountTron"
 
-Сервис для просмотра bindwith, energy кошелька через TRON 
+Сервис для просмотра bandwidth, energy кошелька через TRON 
 
 ## Особенности: 
 
