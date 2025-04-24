@@ -1,6 +1,7 @@
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from sqlalchemy.orm import sessionmaker, declarative_base
-from sqlalchemy.exc import SQLAlchemyError, OperationalError, InterfaceError, ProgrammingError, DataError, NoResultFound
+from sqlalchemy.exc import SQLAlchemyError, OperationalError, InterfaceError
+from sqlalchemy.exc import ProgrammingError, DataError, NoResultFound
 from fastapi import HTTPException
 from contextlib import asynccontextmanager
 
@@ -11,15 +12,15 @@ SQL_DB_URL = 'sqlite+aiosqlite:///tron.db'
 
 engine = create_async_engine(SQL_DB_URL, connect_args={'check_same_thread': False}, echo=True, pool_pre_ping=True)
 
-AsyncSessionLocal = sessionmaker(engine, class_=AsyncSession, expire_on_commit=False, autoflush=False)
+AsyncSessionLocal = sessionmaker(bind=engine, class_=AsyncSession, expire_on_commit=False, autoflush=False)
 
-Base = declarative_base()
 
-@asynccontextmanager
+
 async def get_db():
     async with AsyncSessionLocal() as session:
         try:
             yield session
+            await session.commit()
         except NoResultFound as e:
             raise HTTPException(status_code=404, detail="Запись не найдена")
         except (ProgrammingError, DataError) as e:
@@ -35,8 +36,6 @@ async def get_db():
                 status_code=500, 
                 detail=f"Неожиданная ошибка {str(e)}"
             )
-        finally:
-            await session.close()
 
 
 

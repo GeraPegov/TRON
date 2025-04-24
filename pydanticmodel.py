@@ -6,14 +6,19 @@ import re
 
 
 class User(BaseModel):
-    data: datetime
+    data: date
     time: time
     ip: str
 
     @field_validator('ip')
     def check(cls, value):
-        if not re.match(r'^\d{0,4}\.\d{0,4}\.\d{0,4}\.\d{0,4}', value):
+        if not re.match(r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}', value):
             raise HTTPException(status_code=400, detail="Некорректный IP")
+        octets = value.split('.')
+        for octet in octets:
+            num = int(octet)
+            if num < 0 or num > 255:
+                raise HTTPException(status_code=400, detail="Некорректный IP")
         return value
 
 

@@ -1,51 +1,265 @@
-2025-04-22 17:32:50,027 - programmTRON - INFO - Start work /wallet
-2025-04-22 17:32:50,027 - programmTRON - INFO - time 17:32:50 data 2025-04-22
-2025-04-22 17:32:50,030 - programmTRON - WARNING - Error Exception: (sqlite3.OperationalError) table wallet has no column named time
-[SQL: INSERT INTO wallet (namewallet, data, time, ip) VALUES (?, ?, ?, ?)]
-[parameters: ('TZ4UXDV5ZhNW7fb2AMSbgfAEZ7hWsnYS2g', '2025-04-22', '17:32:50.000000', '127.0.0.1')]
-(Background on this error at: https://sqlalche.me/e/20/e3q8)
-2025-04-22 17:33:59,931 - programmTRON - INFO - Start work /wallet
-2025-04-22 17:33:59,932 - programmTRON - INFO - time 17:33:59 data 2025-04-22
-2025-04-22 17:34:05,035 - programmTRON - INFO - Start /show
-2025-04-22 17:35:53,595 - programmTRON - INFO - Start /show
-2025-04-22 17:36:22,799 - programmTRON - INFO - Start /show
-2025-04-22 17:54:38,665 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
-2025-04-22 17:54:38,667 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
-2025-04-22 17:54:38,667 - apscheduler.scheduler - INFO - Scheduler started
-2025-04-22 17:54:43,080 - programmTRON - INFO - Start work /wallet
-2025-04-22 17:54:43,080 - programmTRON - INFO - time 17:54:43 data 2025-04-22
-2025-04-22 17:54:46,391 - programmTRON - INFO - Start /show
-2025-04-22 18:08:37,179 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
-2025-04-22 18:08:37,180 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
-2025-04-22 18:08:37,180 - apscheduler.scheduler - INFO - Scheduler started
-2025-04-22 18:08:40,233 - programmTRON - INFO - Start work /wallet
-2025-04-22 18:08:40,233 - programmTRON - INFO - time 18:08:40 data 2025-04-22
-2025-04-22 18:08:40,233 - programmTRON - WARNING - Error Exception: object Wallet can't be used in 'await' expression
-2025-04-22 18:56:16,808 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
-2025-04-22 18:56:16,809 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
-2025-04-22 18:56:16,809 - apscheduler.scheduler - INFO - Scheduler started
-2025-04-22 18:56:21,579 - programmTRON - INFO - Start work "/" HTML code
-2025-04-22 18:56:28,402 - programmTRON - INFO - Start work /wallet
-2025-04-22 18:56:28,402 - programmTRON - INFO - time 18:56:28 data 2025-04-22
-2025-04-22 18:56:28,405 - programmTRON - WARNING - Error Exception: 'coroutine' object does not support the asynchronous context manager protocol
-2025-04-22 18:57:05,617 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
-2025-04-22 18:57:05,618 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
-2025-04-22 18:57:05,618 - apscheduler.scheduler - INFO - Scheduler started
-2025-04-22 18:57:09,612 - programmTRON - INFO - Start work /wallet
-2025-04-22 18:57:09,612 - programmTRON - INFO - time 18:57:09 data 2025-04-22
-2025-04-22 18:57:09,614 - programmTRON - WARNING - Error Exception: 'coroutine' object does not support the asynchronous context manager protocol
-2025-04-22 18:58:56,486 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
-2025-04-22 18:58:56,486 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
-2025-04-22 18:58:56,486 - apscheduler.scheduler - INFO - Scheduler started
-2025-04-22 18:58:58,567 - programmTRON - INFO - Start work /wallet
-2025-04-22 18:58:58,567 - programmTRON - INFO - time 18:58:58 data 2025-04-22
-2025-04-22 18:58:58,568 - programmTRON - WARNING - Error Exception: 'coroutine' object does not support the asynchronous context manager protocol
-2025-04-22 19:00:23,295 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
-2025-04-22 19:00:23,296 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
-2025-04-22 19:00:23,296 - apscheduler.scheduler - INFO - Scheduler started
-2025-04-22 19:00:23,949 - programmTRON - INFO - Start work /wallet
-2025-04-22 19:00:23,949 - programmTRON - INFO - time 19:00:23 data 2025-04-22
-2025-04-22 19:00:23,951 - programmTRON - WARNING - Error Exception: 'coroutine' object does not support the asynchronous context manager protocol
-2025-04-22 19:05:36,979 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
-2025-04-22 19:05:36,980 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
-2025-04-22 19:05:36,980 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-23 17:01:00,417 - apscheduler.executors.default - INFO - Running job "clear_db (trigger: interval[0:01:00], next run at: 2025-04-23 17:02:00 MSK)" (scheduled at 2025-04-23 17:01:00.410388+03:00)
+2025-04-23 17:01:00,417 - programmTRON - INFO - start clear_db
+2025-04-23 17:01:00,417 - programmTRON - INFO - 17:01:00.417850
+2025-04-23 17:01:00,528 - apscheduler.executors.default - INFO - Job "clear_db (trigger: interval[0:01:00], next run at: 2025-04-23 17:02:00 MSK)" executed successfully
+2025-04-23 17:01:10,344 - programmTRON - INFO - Start /show
+2025-04-23 17:01:30,192 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-23 17:01:31,207 - programmTRON - INFO - start lifespan
+2025-04-23 17:01:31,207 - programmTRON - INFO - start plan_clear
+2025-04-23 17:01:31,207 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-23 17:01:31,208 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-23 17:01:31,208 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-23 17:01:44,757 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-23 17:01:45,719 - programmTRON - INFO - start lifespan
+2025-04-23 17:01:45,719 - programmTRON - INFO - start plan_clear
+2025-04-23 17:01:45,719 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-23 17:01:45,720 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-23 17:01:45,720 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-23 17:02:35,206 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-23 17:02:36,224 - programmTRON - INFO - start lifespan
+2025-04-23 17:02:36,225 - programmTRON - INFO - start plan_clear
+2025-04-23 17:02:36,225 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-23 17:02:36,226 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-23 17:02:36,226 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-23 17:02:37,089 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-23 17:02:38,079 - programmTRON - INFO - start lifespan
+2025-04-23 17:02:38,079 - programmTRON - INFO - start plan_clear
+2025-04-23 17:02:38,080 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-23 17:02:38,080 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-23 17:02:38,080 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-23 17:02:42,098 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-23 17:17:48,352 - programmTRON - INFO - start lifespan
+2025-04-23 17:17:48,352 - programmTRON - INFO - start plan_clear
+2025-04-23 17:17:48,353 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-23 17:17:48,353 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-23 17:17:48,353 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-23 17:17:50,784 - programmTRON - INFO - Start work "/" HTML code
+2025-04-23 17:17:53,775 - programmTRON - INFO - Start work /wallet
+2025-04-23 17:17:53,775 - programmTRON - INFO - Open db for Post/wallet
+2025-04-23 17:17:53,906 - programmTRON - INFO - Close db for Post/wallet
+2025-04-23 17:18:02,417 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-23 17:20:49,346 - programmTRON - INFO - start lifespan
+2025-04-23 17:20:49,346 - programmTRON - INFO - start plan_clear
+2025-04-23 17:20:49,347 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-23 17:20:49,347 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-23 17:20:49,348 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-23 17:20:58,739 - programmTRON - INFO - Start work "/" HTML code
+2025-04-23 17:21:03,450 - programmTRON - INFO - Start work /wallet
+2025-04-23 17:21:03,451 - programmTRON - INFO - Open db for Post/wallet
+2025-04-23 17:21:03,567 - programmTRON - INFO - Close db for Post/wallet
+2025-04-23 17:35:57,434 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-23 17:38:02,647 - programmTRON - INFO - start lifespan
+2025-04-23 17:38:02,647 - programmTRON - INFO - start plan_clear
+2025-04-23 17:38:02,648 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-23 17:38:02,649 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-23 17:38:02,649 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-23 17:38:15,320 - programmTRON - INFO - Start work /wallet
+2025-04-23 17:38:15,321 - programmTRON - INFO - Open db for Post/wallet
+2025-04-23 17:38:15,462 - programmTRON - INFO - Close db for Post/wallet
+2025-04-23 17:38:15,653 - programmTRON - WARNING - Error Exception: 500: Неожиданная ошибка 'coroutine' object has no attribute 'json'
+2025-04-23 17:38:57,094 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-23 17:38:58,103 - programmTRON - INFO - start lifespan
+2025-04-23 17:38:58,104 - programmTRON - INFO - start plan_clear
+2025-04-23 17:38:58,104 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-23 17:38:58,105 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-23 17:38:58,105 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-23 17:39:00,201 - programmTRON - INFO - Start work /wallet
+2025-04-23 17:39:00,202 - programmTRON - INFO - Open db for Post/wallet
+2025-04-23 17:39:00,368 - programmTRON - INFO - Close db for Post/wallet
+2025-04-23 17:39:00,560 - programmTRON - WARNING - Error Exception: 500: Неожиданная ошибка object AsyncClient can't be used in 'await' expression
+2025-04-23 17:39:24,599 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-23 17:39:25,628 - programmTRON - INFO - start lifespan
+2025-04-23 17:39:25,628 - programmTRON - INFO - start plan_clear
+2025-04-23 17:39:25,629 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-23 17:39:25,630 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-23 17:39:25,630 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-23 17:39:26,752 - programmTRON - INFO - Start work /wallet
+2025-04-23 17:39:26,753 - programmTRON - INFO - Open db for Post/wallet
+2025-04-23 17:39:26,891 - programmTRON - INFO - Close db for Post/wallet
+2025-04-23 17:39:28,002 - httpx - INFO - HTTP Request: POST https://api.shasta.trongrid.io/wallet/getaccountresource "HTTP/1.1 200 OK"
+2025-04-23 17:40:05,378 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-23 17:40:06,427 - programmTRON - INFO - start lifespan
+2025-04-23 17:40:06,427 - programmTRON - INFO - start plan_clear
+2025-04-23 17:40:06,428 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-23 17:40:06,428 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-23 17:40:06,428 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-23 17:40:22,065 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 09:42:08,464 - programmTRON - INFO - start lifespan
+2025-04-24 09:42:08,499 - programmTRON - INFO - start plan_clear
+2025-04-24 09:42:08,512 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 09:42:08,519 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 09:42:08,519 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 09:42:11,553 - programmTRON - INFO - Start work "/" HTML code
+2025-04-24 09:42:13,297 - programmTRON - INFO - Start /show
+2025-04-24 09:45:43,807 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 09:45:44,814 - programmTRON - INFO - start lifespan
+2025-04-24 09:45:44,818 - programmTRON - INFO - start plan_clear
+2025-04-24 09:45:44,818 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 09:45:44,819 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 09:45:44,819 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 09:45:45,471 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:02:03,074 - programmTRON - INFO - start lifespan
+2025-04-24 12:02:03,078 - programmTRON - INFO - start plan_clear
+2025-04-24 12:02:03,079 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:02:03,079 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:02:03,080 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:02:04,837 - programmTRON - INFO - Start work "/" HTML code
+2025-04-24 12:02:17,462 - programmTRON - INFO - Start work /wallet
+2025-04-24 12:02:17,462 - programmTRON - INFO - Open db for Post/wallet
+2025-04-24 12:02:17,463 - programmTRON - WARNING - Error Exception: '_AsyncGeneratorContextManager' object has no attribute 'add'
+2025-04-24 12:02:59,989 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:03:01,011 - programmTRON - INFO - start lifespan
+2025-04-24 12:03:01,015 - programmTRON - INFO - start plan_clear
+2025-04-24 12:03:01,015 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:03:01,016 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:03:01,016 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:03:03,182 - programmTRON - INFO - Start work /wallet
+2025-04-24 12:03:03,182 - programmTRON - INFO - Open db for Post/wallet
+2025-04-24 12:03:03,183 - programmTRON - WARNING - Error Exception: '_AsyncGeneratorContextManager' object has no attribute 'add'
+2025-04-24 12:03:34,130 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:03:35,153 - programmTRON - INFO - start lifespan
+2025-04-24 12:03:35,156 - programmTRON - INFO - start plan_clear
+2025-04-24 12:03:35,157 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:03:35,158 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:03:35,158 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:03:38,574 - programmTRON - INFO - Start work /wallet
+2025-04-24 12:03:38,574 - programmTRON - INFO - Open db for Post/wallet
+2025-04-24 12:03:38,575 - programmTRON - WARNING - Error Exception: '_AsyncGeneratorContextManager' object has no attribute 'add'
+2025-04-24 12:04:52,850 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:04:53,849 - programmTRON - INFO - start lifespan
+2025-04-24 12:04:53,853 - programmTRON - INFO - start plan_clear
+2025-04-24 12:04:53,854 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:04:53,854 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:04:53,854 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:05:02,452 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:05:03,457 - programmTRON - INFO - start lifespan
+2025-04-24 12:05:03,461 - programmTRON - INFO - start plan_clear
+2025-04-24 12:05:03,462 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:05:03,462 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:05:03,462 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:05:05,326 - programmTRON - INFO - Start work /wallet
+2025-04-24 12:05:05,326 - programmTRON - INFO - Open db for Post/wallet
+2025-04-24 12:05:05,327 - programmTRON - WARNING - Error Exception: '_AsyncGeneratorContextManager' object has no attribute 'add'
+2025-04-24 12:10:07,536 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:10:08,641 - programmTRON - INFO - start lifespan
+2025-04-24 12:10:08,645 - programmTRON - INFO - start plan_clear
+2025-04-24 12:10:08,646 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:10:08,647 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:10:08,647 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:10:11,838 - programmTRON - INFO - Start /show
+2025-04-24 12:10:11,838 - programmTRON - INFO - Warning get/show: '_AsyncGeneratorContextManager' object has no attribute 'execute' 
+2025-04-24 12:11:08,133 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:11:09,149 - programmTRON - INFO - start lifespan
+2025-04-24 12:11:09,153 - programmTRON - INFO - start plan_clear
+2025-04-24 12:11:09,154 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:11:09,154 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:11:09,154 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:11:12,115 - programmTRON - INFO - Start /show
+2025-04-24 12:11:12,116 - programmTRON - INFO - Warning get/show: '_AsyncGeneratorContextManager' object has no attribute 'execute' 
+2025-04-24 12:11:40,305 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:11:41,307 - programmTRON - INFO - start lifespan
+2025-04-24 12:11:41,310 - programmTRON - INFO - start plan_clear
+2025-04-24 12:11:41,311 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:11:41,312 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:11:41,312 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:11:42,409 - programmTRON - INFO - Start /show
+2025-04-24 12:14:47,322 - programmTRON - INFO - Start /show
+2025-04-24 12:15:07,522 - programmTRON - INFO - Start work /wallet
+2025-04-24 12:15:07,523 - programmTRON - INFO - Open db for Post/wallet
+2025-04-24 12:15:07,523 - programmTRON - WARNING - Error Exception: 400: Ошибка данных
+2025-04-24 12:15:57,539 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:15:58,610 - programmTRON - INFO - start lifespan
+2025-04-24 12:15:58,613 - programmTRON - INFO - start plan_clear
+2025-04-24 12:15:58,614 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:15:58,615 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:15:58,615 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:16:00,388 - programmTRON - INFO - Start work /wallet
+2025-04-24 12:16:00,389 - programmTRON - INFO - Open db for Post/wallet
+2025-04-24 12:16:00,390 - programmTRON - WARNING - Error Exception: 400: Ошибка данных
+2025-04-24 12:17:21,443 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:17:22,485 - programmTRON - INFO - start lifespan
+2025-04-24 12:17:22,489 - programmTRON - INFO - start plan_clear
+2025-04-24 12:17:22,490 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:17:22,490 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:17:22,490 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:17:31,761 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:17:32,747 - programmTRON - INFO - start lifespan
+2025-04-24 12:17:32,751 - programmTRON - INFO - start plan_clear
+2025-04-24 12:17:32,752 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:17:32,753 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:17:32,753 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:17:34,195 - programmTRON - INFO - Start work /wallet
+2025-04-24 12:17:34,195 - programmTRON - INFO - Open db for Post/wallet
+2025-04-24 12:17:34,307 - programmTRON - INFO - Close db for Post/wallet
+2025-04-24 12:17:35,702 - httpx - INFO - HTTP Request: POST https://api.shasta.trongrid.io/wallet/getaccountresource "HTTP/1.1 200 OK"
+2025-04-24 12:18:19,138 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:18:29,026 - programmTRON - INFO - start lifespan
+2025-04-24 12:18:29,031 - programmTRON - INFO - start plan_clear
+2025-04-24 12:18:29,031 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:18:29,032 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:18:29,032 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:21:44,275 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:21:45,324 - programmTRON - INFO - start lifespan
+2025-04-24 12:21:45,327 - programmTRON - INFO - start plan_clear
+2025-04-24 12:21:45,328 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:21:45,329 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:21:45,329 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:21:48,469 - programmTRON - INFO - Start work /wallet
+2025-04-24 12:21:48,469 - programmTRON - INFO - Open db for Post/wallet
+2025-04-24 12:21:48,470 - programmTRON - WARNING - Error Exception: '_AsyncGeneratorContextManager' object has no attribute 'add'
+2025-04-24 12:22:06,108 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:22:07,134 - programmTRON - INFO - start lifespan
+2025-04-24 12:22:07,138 - programmTRON - INFO - start plan_clear
+2025-04-24 12:22:07,139 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:22:07,139 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:22:07,139 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:22:08,925 - programmTRON - INFO - Start work /wallet
+2025-04-24 12:22:08,926 - programmTRON - INFO - Open db for Post/wallet
+2025-04-24 12:22:09,046 - programmTRON - INFO - Close db for Post/wallet
+2025-04-24 12:22:10,461 - httpx - INFO - HTTP Request: POST https://api.shasta.trongrid.io/wallet/getaccountresource "HTTP/1.1 200 OK"
+2025-04-24 12:22:43,431 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:22:44,462 - programmTRON - INFO - start lifespan
+2025-04-24 12:22:44,466 - programmTRON - INFO - start plan_clear
+2025-04-24 12:22:44,467 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:22:44,468 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:22:44,468 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:22:46,620 - programmTRON - INFO - Start work /wallet
+2025-04-24 12:22:46,621 - programmTRON - INFO - Open db for Post/wallet
+2025-04-24 12:22:46,757 - programmTRON - INFO - Close db for Post/wallet
+2025-04-24 12:22:48,191 - httpx - INFO - HTTP Request: POST https://api.shasta.trongrid.io/wallet/getaccountresource "HTTP/1.1 200 OK"
+2025-04-24 12:23:06,672 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:23:07,673 - programmTRON - INFO - start lifespan
+2025-04-24 12:23:07,677 - programmTRON - INFO - start plan_clear
+2025-04-24 12:23:07,678 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:23:07,678 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:23:07,678 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:23:09,094 - programmTRON - INFO - Start /show
+2025-04-24 12:23:14,619 - programmTRON - INFO - Start work /wallet
+2025-04-24 12:23:14,619 - programmTRON - INFO - Open db for Post/wallet
+2025-04-24 12:23:14,740 - programmTRON - INFO - Close db for Post/wallet
+2025-04-24 12:23:16,197 - httpx - INFO - HTTP Request: POST https://api.shasta.trongrid.io/wallet/getaccountresource "HTTP/1.1 200 OK"
+2025-04-24 12:24:27,842 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:24:28,958 - programmTRON - INFO - start lifespan
+2025-04-24 12:24:28,963 - programmTRON - INFO - start plan_clear
+2025-04-24 12:24:28,963 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:24:28,964 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:24:28,964 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:24:40,247 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:24:41,281 - programmTRON - INFO - start lifespan
+2025-04-24 12:24:41,285 - programmTRON - INFO - start plan_clear
+2025-04-24 12:24:41,286 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:24:41,287 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:24:41,287 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:27:51,024 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:27:52,081 - programmTRON - INFO - start lifespan
+2025-04-24 12:27:52,085 - programmTRON - INFO - start plan_clear
+2025-04-24 12:27:52,085 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:27:52,086 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:27:52,086 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:30:04,328 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-04-24 12:30:05,357 - programmTRON - INFO - start lifespan
+2025-04-24 12:30:05,360 - programmTRON - INFO - start plan_clear
+2025-04-24 12:30:05,361 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 12:30:05,361 - apscheduler.scheduler - INFO - Added job "clear_db" to job store "default"
+2025-04-24 12:30:05,362 - apscheduler.scheduler - INFO - Scheduler started
+2025-04-24 12:32:10,296 - apscheduler.scheduler - INFO - Scheduler has been shut down

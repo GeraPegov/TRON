@@ -1,6 +1,7 @@
 from sqlalchemy import Column, Integer, String, Date, Time
-from database import Base
+from sqlalchemy.orm import declarative_base
 
+Base = declarative_base()
 
 class Wallet(Base):
     __tablename__ = 'wallet'
@@ -9,6 +10,6 @@ class Wallet(Base):
     namewallet = Column(String)
     data = Column(Date, index = True)
     time = Column(Time)
-    ip = Column(String(50))
+    ip = Column(String)
 
     
